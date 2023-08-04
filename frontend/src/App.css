@@ -1,0 +1,370 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* App styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  background-image: linear-gradient(rgb(248, 42, 60),rgb(228, 125, 125));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+
+/* Navigation styles */
+nav {
+  background-color:  #a184e4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .nav__logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav .nav__link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+nav .nav__link:hover {
+  background-color: #7289da;
+}
+
+/* Content styles */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+form input[type="text"], form input[type="date"], form input[type="number"] {
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+form input[type="submit"] {
+  background-color: #7289da;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #ec1212;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid  #a184e4;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+
+button[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f01919;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #f01c1c;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+div {
+  color:  white;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  height: 200px;
+  background-color:  #a184e4;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card button {
+  padding: 10px;
+  background-color: #7289da;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background-color: #f09797;
+}
+
+.card a {
+  color: #7289da;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #2f3136;
+  height: 40px;
+  padding: 0 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color:  #a184e4;
+  padding: 10px 15px;
+}
+
+a:hover {
+  background-color: rgba(247, 240, 240, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 50%;
+  background-color:  #a184e4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+
+
+button[type="submit"] {
+  background-color: #7289da;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #677bc4;
+}
+
+
+
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color:  #a184e4;
+  height: 40px;
+  padding: 0 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #f01919;
+  padding: 10px 15px;
+}
+
+a:hover {
+  background-color: rgba(247, 12, 12, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 50%;
+  background-color: #a184e4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: rgba(240, 234, 234, 0.6); /* Set a semi-transparent white background */
+  box-shadow: 0px 0px 5px rgba(243, 239, 239, 0.3); /* Add a box-shadow to create a glass effect */
+}
+
+button[type="submit"] {
+  background-color: #f51414f5;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #4ae61be7;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #f71b1b;
+  margin: 20px 0;
+}
+
+
+.card {
+  width: 300px; /* increase the width as per your requirement */
+  height: 300px; /* increase the height as per your requirement */
+  padding: 20px;
+  border: none;
+  background-color: rgba(194, 57, 57, 0.6); /* Set a semi-transparent white background */
+  box-shadow: 0px 0px 10px rgba(226, 206, 206, 0.3); /* Add a box-shadow to create a glass effect */
+ 
+  
+}
